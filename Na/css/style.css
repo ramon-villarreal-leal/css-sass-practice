@@ -33,9 +33,22 @@ body {
     url("../img/hero.jpg");
     background-size: cover;
     background-position: top;
+    position: relative;
 
     clip-path: polygon(0 0, 100% 0, 100% 75vh,0 100%);
 
     /*Make a triangle*/
     /*clip-path: polygon(50% 0, 100% 100%, 0 100%);*/
 }
+
+.logo-box {
+    position: absolute;
+    top: 40px;
+    left: 40px;
+}
+
+.logo {
+    height: 40px;
+}
+
+/*Easiest way to center is to use transform, top, and left CSS properties*/
