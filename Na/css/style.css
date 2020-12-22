@@ -79,3 +79,18 @@ body {
     letter-spacing: 17.4px;
 }
 
+@keyframes moveInLeft {
+    0% {
+
+    }
+
+    80% {
+
+    }
+
+
+    100% {
+
+    }
+}
+
