@@ -78,10 +78,11 @@ body {
     font-weight: 700;
     letter-spacing: 17.4px;
 }
-
+/*Best to animate opacity and transform properties only these two for now*/
 @keyframes moveInLeft {
     0% {
-
+        opacity: 0;
+        transform: translateX(-100px);
     }
 
     80% {
@@ -90,7 +91,9 @@ body {
 
 
     100% {
-
+        opacity: 1;
+        /*Translate 0 allows to revert to preanimated state, as it would look before*/
+        transform: translate(0);
     }
 }
 
