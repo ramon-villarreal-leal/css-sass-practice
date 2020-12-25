@@ -82,6 +82,9 @@ body {
     font-size: 20px;
     font-weight: 700;
     letter-spacing: 17.4px;
+
+    animation-name: moveInLeft;
+    animation-duration: 5s;
 }
 /*Best to animate opacity and transform properties only these two for now*/
 @keyframes moveInLeft {
